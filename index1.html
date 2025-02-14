@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Outfit Recommendation</title>
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Box Icon Link for Icons -->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+</head>
+<body>
+    <!-- Header & Navbar Section -->
+    <header>
+        <nav>
+            <div class="nav_logo">
+                <a href="#">
+                    <img src="OUTFITR.png" alt="Outfit Recommender Logo" style="width: 100px; height: auto;" />
+                </a>
+            </div>
+            
+            
+
+            <input type="checkbox" id="click" />
+            <label for="click">
+                <i class="menu_btn bx bx-menu"></i>
+                <i class="close_btn bx bx-x"></i>
+            </label>
+
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#service">Services</a></li>
+                <li><a href="#why">Why Us</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero_section">
+        <div class="section_container">
+            <div class="hero_container">
+                <div class="text_section">
+                    <h2>Find Your Perfect Outfit</h2>
+                    <h3>Style Made Simple</h3>
+                    <p>
+                        Welcome to your personal outfit advisor, where every outfit tells a story and every style shines.
+                    </p>
+
+                    <div class="hero_section_button">
+                        <button class="button" onclick="window.location.href='./bot.html'">Get Recommendations</button>
+                    </div>
+                </div>
+
+                <div class="image_section">
+                    <img src="party.jpeg" alt="Outfit" tyle="width: 5000px; height: auto;" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section class="about_us" id="about">
+        <div class="section_container">
+            <div class="about_container">
+                <div class="text_section">
+                    <h2 class="section_title">About Us</h2>
+                    <p>
+                        We are dedicated to helping you find the perfect outfit for any occasion. Our team of fashion experts curates the best combinations to suit your style.
+                    </p>
+                </div>
+
+                <div class="image_section">
+                    <img src="About us.png" alt="About Us" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="service">
+        <h2 class="section_title">Our Services</h2>
+        <div class="section_container">
+            <div class="services_items">
+                <img src="casual.jpeg" alt="Casual Outfit" class="service-img" />
+                <div class="services_text">
+                    <h3>Casual Outfits</h3>
+                    <p>Comfortable and stylish outfits for everyday wear.</p>
+                </div>
+            </div>
+            
+            <div class="services_items">
+                <img src="formal.jpeg" alt="Formal Outfit" class="service-img" />
+                <div class="services_text">
+                    <h3>Formal Wear</h3>
+                    <p>Elegant outfits for business meetings and formal events.</p>
+                </div>
+            </div>
+            
+            <div class="services_items">
+                <img src="Sporty Looks.jpeg" alt="Sporty Outfit" class="service-img" />
+                <div class="services_text">
+                    <h3>Sporty Looks</h3>
+                    <p>Activewear that combines style and functionality.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Us Section -->
+    <section class="why_us" id="why">
+        <h2 class="section_title">Why Choose Us?</h2>
+        <div class="section_container">
+            <div class="why_container">
+                <div class="why_items">
+                      
+                    <div class="why_us_text">
+                        <h3>Style Experts</h3>
+                        <p>Our team of fashion experts is here to guide you in making the best outfit choices.</p>
+                    </div>
+                </div>
+                <div class="why_items">
+                     
+                    <div class="why_us_text">
+                        <h3>Personalized Service</h3>
+                        <p>We provide tailored recommendations based on your preferences and style.</p>
+                    </div>
+                </div>
+                <div class="why_items">
+                     
+                    <div class="why_us_text">
+                        <h3>Quality Materials</h3>
+                        <p>We ensure that all outfits are made from high-quality materials for comfort and durability.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery" id="gallery">
+        <h2 class="section_title">Gallery</h2>
+        <div class="section_container">
+            <div class="gallery_container">
+                <div class="gallery_items">
+                    <img src="gallery1.png" alt="Gallery Image" />
+                </div>
+                <div class="gallery_items">
+                    <img src="gallery2.jpg" alt="Gallery Image" />
+                </div>
+                <div class="gallery_items">
+                    <img src="gallery3.jpg" alt="Gallery Image" />
+                </div>
+                <div class="gallery_items">
+                    <img src="gallery4.jpg" alt="Gallery Image" />
+                </div>
+                <div class="gallery_items">
+                    <img src="gallery5.jpg" alt="Gallery Image" />
+                </div>
+                <div class="gallery_items">
+                    <img src="gallery6.jpg" alt="Gallery Image" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <h2 class="section_title">Contact Us</h2>
+        <div class="section_container">
+            <div class="contact_container">
+                <div class="contact_form">
+                    <form action="#">
+                        <div class="field">
+                            <label for="Name">Full Name</label>
+                            <input type="text" id="Name" placeholder="Your Name" required />
+                        </div>
+                        <div class="field">
+                            <label for="email">Your Email</label>
+                            <input type="email" id="email" placeholder="Your Email" required />
+                        </div>
+                        <div class="field">
+                            <label for="number">Your Number</label>
+                            <input type="tel" id="number" placeholder="Your Contact Number" required />
+                        </div>
+                        <div class="field">
+                            <label for="textarea">Message</label>
+                            <textarea name="textarea" id="textarea" placeholder="Your Message" required></textarea>
+                        </div>
+
+                        <button class="button" id="submit">Submit</button>
+                    </form>
+                </div>
+
+                <div class="contact_text">
+                    <div class="contact_items">
+                        <i class="bx bx-current-location"></i>
+                        <div class="contact_details">
+                            <h3>Our Location</h3>
+                            <p>PUNE, INDIA</p>
+                        </div>
+                    </div>
+                    <div class="contact_items">
+                        <i class="bx bxs-envelope"></i>
+                        <div class="contact_details">
+                            <h3>General Inquiries</h3>
+                            <p>info@outfitrecommender.com</p>
+                        </div>
+                    </div>
+                    <div class="contact_items">
+                        <i class="bx bxs-phone-call"></i>
+                        <div class=">
+                            <h3>Call Us</h3>
+                            <p>9122564645</p>
+                        </div>
+                    </div>
+                    <div class="contact_items">
+                        <i class="bx bxs-time-five"></i>
+                        <div class="contact_details">
+                            <h3>Our Timing</h3>
+                            <p>Mon-Sun : 10:00 AM - 7:00 PM</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="section_container">
+            <div class="footer_section">
+                <div class="footer_logo">
+                    <a href="index.html">
+                        <h2>Outfit Recommender</h2>
+                    </a>
+                </div>
+
+                <div class="useful_links">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#service">Services</a></li>
+                        <li><a href="#why">Why Us</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="contact_us">
+                    <h3>Contact</h3>
+                    <ul>
+                        <li>
+                            <i class="bx bx-current-location"></i>
+                            <span>Your City, Your Country</span>
+                        </li>
+                        <li>
+                            <i class="bx bxs-phone-call"></i>
+                            <span>+01 123456789</span>
+                        </li>
+                        <li>
+                            <i class="bx bxs-time-five"></i>
+                            <span>Mon-Sun : 10:00 AM - 7:00 PM</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="follow_us">
+                    <h3>Follow Us</h3>
+                    <i class="bx bxl-facebook-circle"></i>
+                    <i class="bx bxl-twitter"></i>
+                    <i class="bx bxl-instagram-alt"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
